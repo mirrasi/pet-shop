@@ -1,0 +1,18 @@
+.toolbar{
+    display:flex;
+    width: 100%;
+    /* background-color: black; */
+    height: 500%;
+    border: 1px solid;
+}
+
+.toolbar input{
+    width: 450px;
+    height:40px;
+    color:black;
+}
+
+.toolbar p{
+    display:block;
+    margin-left: 10px;
+}
