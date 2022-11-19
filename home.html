@@ -6,24 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MIRA PET SHOP sài gòn-PET STORE FOOD</title>
     <link rel="stylesheet"  href="./css/home.css">
-    <link rel="stylesheet"  href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        #search-box{
+            background:#fff;
+        }
+        #search-box #search-text{
+            border:none;
+            outline:none;
+            background:none;
+            padding: 10px 15px
+        }
+        #search-box #search-button{
+            border:none;
+            padding:13px 10px;
+        }
+    </style>
+
     <div class="toolbar">
         <img src="./image/icon.pet1.1.png" width="6%">
-        <div>
-            <input placeholder="Nhập nội dung tìm kiếm">
-            <i class="fa fa-search"></i>
-        </div>
+
+        <form id="search-box">
+            <input type="text" placeholder="Nhập nội dung tìm kiếm" id="search-text">
+            <button id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+
         <div>
             <h5>0707070707</h5>
             <p>Hotline bán hàng</p>
         </div>
+
         <div>
             <h5>MUA HÀNG</h5>
             <p>Thời gian 8am-21pm</p>
         </div>
+
         <div>
             <h5>GIAO HÀNG TOÀN QUỐC</h5>
             <p>Nhận hàng 2-4 ngày</p>

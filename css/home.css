@@ -2,17 +2,16 @@
     display:flex;
     width: 100%;
     /* background-color: black; */
-    height: 500%;
+    height: 100px;
     border: 1px solid;
-}
-
+} 
 .toolbar input{
-    width: 450px;
-    height:40px;
-    color:black;
+    width:11cm;
+    height:0.9cm;
 }
 
-.toolbar p{
-    display:block;
-    margin-left: 10px;
+.toolbar form{
+    justify-content: center;
+    align-items:center;
+    min-height: 20vh;
 }
