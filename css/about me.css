@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: bisque;
+    background-size: contain;
+    scroll-behavior: smooth;
+    color: white;
+}
+
+.nav{
+   background-color: #486241;
+}
+
+.nav-item{
+    color:black;
+    text-decoration: none;
+    display:inline-block;
+    padding:30px;
+    font-weight: bolder;
+}
+
+.nav-item:hover{
+    background-color: wheat;
+    color:brown;
+}
+
+#objective{
+    position: absolute;
+    right: 0;
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color:black;
+}
+#objective h1{
+    margin-right: 350px;
+    color:black;
+}
+
+#objective ul{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    text-align:left;
+    margin-right:200px;
+    margin-top: 35px;
+    color:black;
+    font-weight: 900;
+}
+
+#objective img{
+    margin-top: 30px;
+    margin-right: 35px;
+    height:200px;
+    width: auto;
+}
+
+#objective div{
+    display:flex;
+
+}
+
+#objective li{
+    line-height:35px ;
+}
+
+
+#introduction{
+    width:70%;
+}
+
+#introduction h1{
+    width:20%;
+    margin-top:4%;
+    margin-left: 33%;
+    margin-bottom:20px;
+    color:black;
+} 
+
+#introduction img{
+    margin-right:20px;
+    margin-left:230px; 
+    height:200px;
+    width: auto;
+}
+
+
+#introduction ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left:40px;
+    text-align: left;
+    color:black;
+    font-weight: 900;
+}
+
+#introduction li{
+    line-height: 30px;
+}
+
+#introduction div{
+    display:flex;
+
+}
+
+#soft-skill{
+    width:70% ; 
+}
+
+#soft-skill h1{
+    width:20%;
+    margin-left: 33%;
+    margin-top: 4%;
+    margin-bottom:20px;
+    color:black;
+}
+
+#soft-skill ul{
+    color:black;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left:40px;
+    margin-top:70px;
+    text-align: left;
+    font-weight: 900;
+}
+
+#soft-skill div{
+    display:flex;
+}
+
+#soft-skill img{
+    margin-right:20px;
+    margin-left:230px; 
+    height:200px;
+    width: auto;
+}
+
+#soft-skill li{
+    line-height: 30px;
+}
+ 
+.headline{
+    font-weight: bold;
+}

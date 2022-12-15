@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Distressed&display=swap');
 body {
     margin: 0;
     box-sizing: border-box;
@@ -23,27 +24,37 @@ body {
 .number h5 {
     margin: 0;
     color:brown;
+    font-family: Arial;
+    font-weight:bolder;
+    font-size: 18px;
 }
 .number p {
     margin: 0;
 }
 .nav{
     display:flex;
-    background-color:gray;
-    height:1cm;
+    background-color:#486241;
+    height:2cm;
     justify-content: space-evenly;
     align-items:center;
+    font-weight: bolder;
 }
 .nav-item{
     color:black;
     text-decoration: none;
+    padding:30px;
 }
 .nav-item:hover{
-    color:wheat;
+    color:#AA0000;
+    background-color: wheat;
+    padding:30px;
 }
 
 #sentence{
     text-align: center;
+    font-family: Arial;
+    font-weight:bolder;
+    font-size: xx-large;
 }
 
 .container {
